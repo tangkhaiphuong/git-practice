@@ -1,3 +1,4 @@
+import { checking } from "./business";
 import { upload } from "./upload";
 import { add } from "./utility";
 
@@ -8,6 +9,8 @@ function main() {
   const result = add(left + right);
 
   upload(result);
+
+checking(result);
   console.log("Run here", result);
 }
 
