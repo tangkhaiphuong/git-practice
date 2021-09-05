@@ -1,3 +1,4 @@
+import { upload } from "./upload";
 import { add } from "./utility";
 
 function main() {
@@ -5,6 +6,8 @@ function main() {
   const right = 5;
 
   const result = add(left + right);
+
+  upload(result);
   console.log("Run here", result);
 }
 
