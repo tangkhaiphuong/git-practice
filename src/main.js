@@ -10,7 +10,9 @@ function main() {
 
   upload(result);
 
-checking(result);
+  checking(result);
+  console.log("Run here", result);
+
   console.log("Run here", result);
 }
 
