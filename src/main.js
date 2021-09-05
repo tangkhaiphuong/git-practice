@@ -1,5 +1,11 @@
+import { add } from "./utility";
+
 function main() {
-  console.log("Run here");
+  const left = 2;
+  const right = 5;
+
+  const result = add(left + right);
+  console.log("Run here", result);
 }
 
 main();
