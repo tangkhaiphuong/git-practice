@@ -14,6 +14,8 @@ function main() {
   console.log("Run here", result);
 
   console.log("Run here", result);
+
+  console.log("Run here", result);
 }
 
 main();
